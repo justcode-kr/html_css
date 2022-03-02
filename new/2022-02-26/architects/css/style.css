@@ -1,0 +1,245 @@
+@charset "utf-8";
+
+body * {
+  box-sizing: border-box;
+}
+
+/* .app {
+  width: 1680px;
+} */
+
+.container {
+  width: 1680px;
+  margin: 0 auto;
+}
+
+.wrap {
+  width: 1500px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.navi {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  border-bottom: 1px solid rgba(163, 163, 163, 0.5);
+  box-shadow: 0 2px 4px rgb(201, 201, 201);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 10;
+}
+
+.navi a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 4.5px;
+  font-size: 18px;
+}
+
+.navi a:hover {
+  background-color: rgb(202, 201, 201);
+  padding: 10px 0;
+}
+
+.navi a span {
+  font-weight: 800;
+}
+
+.navi .menu a {
+  margin-left: 25px;
+}
+
+.bg {
+  width: 100%;
+  position: relative;
+}
+
+.bg h2 {
+  color: #fff;
+  font-size: 40px;
+  letter-spacing: 3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.bg h2 span {
+  background-color: rgba(31, 31, 31, 0.8);
+  padding: 10px 20px 3px;
+}
+
+.pro {
+  width: 100%;
+  height: auto;
+  padding: 60px 0;
+}
+
+.pro .pro_pa {
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.pro h2 {
+  width: 100%;
+  font-size: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(207, 198, 198, 0.527);
+}
+
+.pro_flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.posi {
+  width: 24%;
+  height: auto;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.posi img {
+  width: 100%;
+}
+
+.posi h3 {
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  vertical-align: baseline;
+  padding: 10px 15px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.abo {
+  width: 100%;
+  height: auto;
+  padding-bottom: 60px;
+}
+
+.abo .abo_h {
+  width: 100%;
+  font-size: 25px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid rgba(207, 198, 198, 0.527);
+}
+
+.abo .abo_con {
+  width: 100%;
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 18px 0 30px;
+}
+
+.abo_pro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.abo .profile {
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+}
+
+.profile img {
+  filter: grayscale(70%);
+}
+
+.profile h2 {
+  width: 100%;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.profile h3 {
+  font-size: 18px;
+  padding: 20px 0;
+  color: gray;
+}
+
+.profile p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.profile button {
+  width: 100%;
+  color: #000;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px 0;
+  background-color: rgba(204, 204, 204, 0.3);
+  border: none;
+}
+
+.profile button:hover {
+  background-color: rgba(204, 204, 204, 0.8);
+  cursor: pointer;
+}
+
+.con h2 {
+  width: 100%;
+  font-size: 25px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid rgba(207, 198, 198, 0.527);
+}
+
+.con p {
+  font-size: 18px;
+  padding: 15px 0;
+}
+
+.con form input {
+  width: 100%;
+  display: block;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.con button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 15px;
+  border-style: none;
+  margin: 20px 0 40px;
+}
+
+.con button:hover {
+  background-color: rgb(175, 175, 175);
+  color: #000;
+  border-style: none;
+}
+
+.con img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+footer h1 {
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+footer h1 a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer h1 a:hover {
+  color: yellow;
+}

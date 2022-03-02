@@ -1,0 +1,211 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,
+aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,
+nav,output,ruby,section,summary,time,mark,audio,video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,
+nav,section {
+  display: block;
+}
+body {
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+input:focus {
+  outline: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.container {
+  max-width: 500pt;
+  margin: 0 auto;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+
+.sr-only {
+  font-size: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 12.5pt 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav {
+  color: #fff;
+}
+
+header nav a {
+  font-size: 16px;
+  margin: 0 15px;
+}
+
+header .menu button {
+  padding: 15px;
+  margin-right: 10px;
+}
+
+header .search button {
+  padding: 15px;
+}
+
+section button[type="button"] {
+  padding: 12pt 0;
+  width: 104pt;
+  font-family: Serif;
+  font-size: 10pt;
+  text-align: center;
+  font-style: italic;
+  color: dimgray;
+  background: rgb(255,255,255);
+  border-radius: 3px;
+}
+
+.section h2 {
+  font-family: 'ACaslonPro', Serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 32pt;
+  line-height: 40pt;
+}
+
+.section h3 {
+  font-family: 'ACaslonPro', Serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 23pt;
+  line-height: 30pt;
+}
+
+.section p {
+  font-size: 8pt;
+  line-height: 15pt;
+}
+
+.section p + p {
+  margin-top: 20px;
+}
+
+.sec1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400pt;
+  background: mediumpurple;
+}
+
+.sec1 h2 {
+  color: rgb(0, 255, 156);
+  text-align: center;
+}
+
+.sec2 {
+  padding: 80pt 0 72.5pt;
+}
+
+.sec2 h2 {
+  margin: 0 0 36pt;
+  color: dimgray;
+}
+
+.sec2 h2 span {
+  color: rgb(0, 255, 156);
+}
+
+.sec2 .author {
+  color: gray;
+}
+
+.sec3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400pt;
+  background: slategray;
+}
+
+.sec3 .container {
+  /*padding: 138.5pt 0 136.5pt;*/
+  text-align: center;
+  color: #fff;
+}
+
+.sec3 h3 {
+  margin-bottom: 21.5pt;
+}
+
+.sec3 p {
+  max-width: 253.5pt;
+  margin-bottom: 28.5pt;
+}
+
+.sec3 button + button {
+  margin-left: 10pt;
+}
+
+.sec3 .buttons__btn-1 {
+  color: #fff;
+  background: rgb(0, 255, 156);
+}
+
+
+

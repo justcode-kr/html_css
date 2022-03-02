@@ -1,0 +1,22 @@
+/* 전체 선택 */
+
+* {
+    font-family: 'NanumGothic';
+}
+
+/* 내부 선택 */
+ul li {
+    font-style: italic;
+}
+
+/* 동시 선택 */
+
+li.key {
+    color: red;
+}
+
+/* 상태별 선택 */
+
+li:hover {
+    background-color: darkslateblue;
+}

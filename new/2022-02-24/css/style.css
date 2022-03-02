@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Times New Roman", Georgia, Serif;
+  font-size: 15px;
+  letter-spacing: 1.5;
+}
+
+.w3-top {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.w3-white {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+.w3-padding {
+  padding: 8px 16px !important;
+}
+.w3-card {
+  box-shadow: 0 2px 5px 0 rgba(0 0 0 / 16%), 0 2px 10px 0 rgba(0 0 0 / 12%);
+}
+.w3-bar {
+  width: 100%;
+  overflow: hidden;
+}
+.w3-bar::before {
+  content: "";
+  display: table;
+  clear: both;
+}

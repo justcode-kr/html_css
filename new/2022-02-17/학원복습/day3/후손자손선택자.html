@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        #header>h1 {
+            color: red;
+        }
+
+        #header>div>h1 {
+            background-color: yellow;
+        }
+
+        #section h2 {
+            background-color: skyblue;
+        }
+
+        #article>.text {
+            font-size: 12px;
+        }
+
+        p.text {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>웹퍼블리셔</h1>
+        <div>
+            <h1>3일차</h1>
+        </div>
+    </div>
+    <div id="section">
+        <h2>후손선택자와 자손선택자</h2>
+        <div id="article">
+            <h2 class="text">후손선택자와 자손선택자의 차이</h2>
+            <p class="text">얘는 위 선택자의 영향을 받을까요?</p>
+        </div>
+    </div>
+</body>
+</html>

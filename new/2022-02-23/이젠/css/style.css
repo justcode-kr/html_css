@@ -1,0 +1,296 @@
+@charset "utf-8";
+
+* {margin: 0; padding: 0; border: 0;}
+ul {list-style: none;}
+a {text-decoration: none;}
+body {font-family: 'NanumSquare', sans-serif;}
+html, body {height: 100%;}
+
+/* 최상단 헤더 */
+header {width: 100%; height: 100px; position: fixed; top: 0; border-bottom: 1px solid rgba(255,255,255,.5); z-index: 9999; background: rgba(0,0,0,.1);}
+#header_container {width: 1600px; height: 100px; margin: auto;}
+#header_container h1 {width: 124px; height: 29px; float: left; margin-top: 36px; margin-right: 137px; background: url(../img/header_logo.png) no-repeat;}
+#header_container h1 span {display: block; text-indent: -9999px;}
+.gnb {float: left; padding-top: 36px; font-weight: bold;}
+.gnb ul li {float: left; margin-right: 80px;}
+.gnb ul li a {color: #fff; font-size: 20px;}
+.h_right {float: right; padding-top: 36px;}
+.h_right ul li {float: left; margin-left: 50px; line-height: 30px; font-weight: bold;}
+.h_right ul li a {color: #fff; font-size: 17px;}
+/* .h_right ul li a img {vertical-align: middle;} */
+.h_right .h_right_inq {background: url(../img/ico_inquiry.png) no-repeat left center; padding-left: 21px;}
+.h_right .h_right_lang {background-image: url(../img/ico_language.png), url(../img/ico_clampW_B.png);
+                        background-repeat: no-repeat, no-repeat;
+                        background-position: left center, right center;
+                        padding: 0 15px 0 25px;}
+.h_right .h_right_shared {background: url(../img/ico_shared.png) no-repeat left center; padding-left: 17px;}
+.h_right .h_right_shared span {display: block; text-indent: -9999px;}
+.h_right .h_right_search {background: url(../img/ico_header_search.png) no-repeat left center; padding-left: 23px;}
+.h_right .h_right_search span {display: block; text-indent: -9999px;}
+.h_right .h_right_m_menu {display: none;}
+
+/* 섹션1(메인 비주얼 영역) */
+#main_section01 {width: 100%; height: 100%; background: url(../img/main_visual_01.jpg) no-repeat center / cover; padding-top: 390px; box-sizing: border-box;}
+#visual_container {width: 1400px; margin: auto;}
+#visual_container h2 {color: #fff; font-size: 60px; font-weight: 900; text-shadow: 2px 2px 2px rgba(0,0,0,.3); line-height: 1.4; margin-bottom: 40px;}
+#visual_container p {color: #fff; font-size: 24px; font-weight: 700; text-shadow: 2px 2px 2px rgba(0,0,0,.3); margin-bottom: 70px;}
+
+/* 더보기 버튼 */
+.more_btn {background: #fff; border: 2px solid #000; padding: 10px 20px; display: inline-block; margin-bottom: 50px; color: #000; font-weight: 700; font-size: 17px;}
+/* .more_btn img {margin-left: 30px;} */
+.more_btn::after {content: url(../img/ico_clampBk_R.png); margin-left: 30px;}
+
+.slide_page {color: #fff; font-weight: 700; font-size: 18px; margin: 0 35px;}
+
+
+/* 섹션 공통 타이틀 */
+.title {text-align: center;}
+.title h2 {font-size: 50px; font-weight: 900;}
+.title h3 {font-size: 24px; padding: 30px 0 60px;}
+
+
+/* 섹션2(검색 영역) */
+#main_section02 {width: 100%; height: 100%; background: url(../img/bg_section1.jpg) no-repeat center / cover;}
+#search_container {width: 1600px; height: 100%; margin: auto; padding-top: 175px; box-sizing: border-box;}
+#search_container .title {color: #fff;}
+.searchbox {width: 657px; height: 80px; margin: 35px auto 30px;}
+.searchbox input {width: 560px; height: 80px; font-size: 30px; padding-left: 40px; box-sizing: border-box; font-family: 'NanumSquare', sans-serif; vertical-align: top;}
+.searchbox button {width: 97px; height: 80px; background: #fff;}
+.hashtagbox {text-align: center; margin-bottom: 70px;}
+.hashtag {color: #fff; padding: 13px 20px; border: 1px solid rgba(255,255,255,.5); display: inline-block; border-radius: 100px; font-size: 18px;}
+.hashtag:hover {background: #bb0841; border-color: #bb0841;}
+.faq {border-top: 1px solid rgba(255,255,255,.5); text-align: center;}
+.faq h3 {color: #fff; text-align: center; font-size: 30px; padding: 55px 0 35px; font-weight: 400;}
+.faq_item {display: inline-block; background: #fff; text-align: left; padding: 40px; border-radius: 20px; font-size: 20px; font-weight: 700; margin: 0 12px 50px; line-height: 1.6;}
+.faq_item strong {font-weight: 900;}
+
+/* 섹션3(IT뉴스) */
+#main_section03 {width: 100%; height: 100%; padding-top: 170px; box-sizing: border-box;}
+.section03_content {width: 100%; height: 600px; background: url(../img/bg_section2_8.png) no-repeat center / cover; position: relative;}
+.section03_navbox {width: 640px; height: 600px; position: absolute; left: 100px;}
+.section03_navbox button {width: 640px; height: 40px; background: rgba(0,0,0,.9); cursor: pointer;}
+.section03_navbox button.nav_prev {border-bottom: 1px solid rgba(255,255,255,.3);}
+.section03_navbox ul li {width: 640px; height: 172px; background: rgba(0,0,0,.9); color: #fff;
+    padding: 40px 60px; box-sizing: border-box; border-bottom: 1px solid rgba(255,255,255,.3);}
+.section03_navbox ul li .it_news_title {font-size: 24px; line-height: 1.5; margin-bottom: 10px;}
+.section03_navbox ul li .it_news_source {font-size: 18px; text-decoration: underline;}
+.section03_navbox ul li:nth-child(2) {background: rgba(187,8,65,.9); font-weight: bold;}
+.section03_slide {width: 45%; position: absolute; left: 50%; top: 50%; transform: translateY(-50%); color: #fff;}
+.section03_slide h2 {font-size: 70px; font-weight: 900;}
+.section03_slide h3 {font-size: 30px; margin: 50px 0 30px;}
+.section03_slide p {font-size: 20px; margin-bottom: 30px; line-height: 1.5;}
+.section03_slide .more_btn {background: #000; color: #fff;}
+.section03_slide .more_btn::after {content: url(../img/ico_clampW_R.png);}
+
+/*섹션4(It신기술)*/
+#main_section04 {width: 100%; height: 100%; padding-top: 174px; box-sizing: border-box;}
+.section04_slide {width: 100%; color: #fff;}
+.section04_slide ul {overflow: hidden; margin-bottom: 60px;}
+.section04_slide ul li {width: 20%; float: left; position: relative;}
+.section04_slide ul li img {width: 100%;}
+.section04_slide ul li h4 {font-size: 30px; position: absolute; left: 30px; bottom: 130px; font-weight: 900;}
+.section04_slide ul li p {font-size: 20px; position: absolute; left: 30px; bottom: 80px;}
+.section04_nav {width: 270px; height: 6px; background: #e8e8e8; clear: both; margin: auto; border-radius: 3px;}
+.section04_nav .bar {width: 112px; height: 6px; background: #bb0841; border-radius: 3px;}
+
+/* 섹션5(전문지식) */
+#main_section05 {width: 100%; height: 100%; background: url(../img/bg_section4.jpg) no-repeat center / cover; padding-top: 240px; box-sizing: border-box; color: #fff;}
+.section05_content {width: 1080px; margin: auto;}
+.section05_slide_img {width: 480px; margin: 0 50px 40px 0; float: left;}
+.section05_slide_content {width: 550px; float: left;}
+.section05_slide_content h4 {font-size: 30px; line-height: 1.4; margin-bottom: 40px;}
+.section05_slide_content p {font-size: 18px; line-height: 1.5; margin-bottom: 50px;}
+.section05_slide_content h6 {font-size: 18px;}
+.section05_content .slide_nav {clear: both; text-align: center;}
+
+/* 섹션6 (문의하기) */
+#main_section06 {width: 100%; height: 322px; background: url(../img/img_inquiry_Bg.jpg) no-repeat center / cover; color: #fff; text-align: center; padding-top: 110px; box-sizing: border-box;}
+#main_section06 h2 {font-size: 30px;}
+#main_section06 h3 {font-size: 20px; margin: 20px 0 45px;}
+#main_section06 a {font-size: 18px; color: #fff;}
+#main_section06 a::after {content: url(../img/ico_contact.png); margin-left: 5px;}
+
+
+footer {width: 100%; height: 274px;}
+#footer_container {width: 1600px; height: 274px; margin: auto; position: relative; font-size: 17px; color: #666; font-weight: bold;}
+
+.fnb1 {padding: 50px 0 30px; float: left;}
+.fnb1 ul li {display: inline; margin-right: 12px; font-size: 17px; font-weight: bold;}
+.fnb1 ul li a {color: #000;}
+
+.sns {width: 265px; height: 45px; position: absolute; right: 0; top: 102px;}
+.sns ul li {width: 45px; height: 45px; float: left; margin-left: 10px;}
+.sns ul li:first-child {margin-left: 0;}
+.sns ul li a {width: 45px; height: 45px; display: block; background-color: #eee; border-radius: 50%; background-repeat: no-repeat; background-position: center;}
+.sns_b {background-image: url(../img/ico_footer_b.png);}
+.sns_b:hover {background-image: url(../img/ico_footer_b_on.png); background-color: #626262;}
+.sns_f {background-image: url(../img/ico_footer_f.png);}
+.sns_f:hover {background-image: url(../img/ico_footer_f_on.png); background-color: #1877f2;}
+.sns_n {background-image: url(../img/ico_footer_n.png);}
+.sns_n:hover {background-image: url(../img/ico_footer_n_on.png); background-color: #5aaf33;}
+.sns_y {background-image: url(../img/ico_footer_y.png);}
+.sns_y:hover {background-image: url(../img/ico_footer_y_on.png); background-color: #ea3223;}
+.sns_in {background-image: url(../img/ico_footer_in.png);}
+.sns_in:hover {background-image: url(../img/ico_footer_in_on.png); background-color: #0a66c2;}
+.sns ul li a span {
+    /* width: 0; height: 0; font-size: 0; */
+    /* opacity: 0; */
+    /* visibility: hidden; */
+    /* display: block; text-indent: -9999px; */ /* 많이 쓰는 방법 1 */
+    position: absolute; top: -9999px; left: -9999px; /* 많이 쓰는 방법 2 */
+
+    /* a태그에 hover 했을 때 이미지 자체가 바뀌어야 하는 경우
+    1. 이미지 태그나 백그라운드 이미지, 또는 스크립트를 이용하면 된다.
+    2. 대체 방법으로 css만으로도 처리할 수 있는 방법이 있다. => a태그에 백그라운드로 이미지를 깔고 hover했을 때 백그라운드 이미지를 변경하면 됌!
+    but, 이미지 태그는 alt 속성을 이용해 이미지에 대한 설명을 작성할 수 있으나 백그라운드로 이미지를 처리하면 비장애인의 눈으로는 이미지를 확인할 수 있지만 시각장애인에게는 아무것도 없는 빈 박스로 인식(스크린리더가 읽을 게 없음)하기 때문에 이 부분을 읽지도 않고, 포커스도 잡히지 않음.
+    그래서 해달 부분의 내용을 텍스트로 입력하고, 실제로 눈에 보여지는 부분(이미나 아이콘)만 볼 수 있게 하기 위해 텍스트를 어디 멀리 보내거나 글자를 안보이게 하는 등의 일종의 꼼수를 쓴다. [IR(Image Replacement)기법]
+    이미지 : background,배경 / 텍스트 : foreground, 전경 */
+}
+
+
+.family {text-align: right; padding-top: 30px;}
+.family select {width: 240px; height: 55px; border: 1px solid; color: #999; box-sizing: border-box; font-size: 18px; font-family: 'NanumSquare', sans-serif; padding: 0 30px;}
+
+.fnb2 {clear: both;}
+.fnb2 ul li {display: inline; border-right: 1px solid #d8d8d8; padding-right: 20px; margin-right: 16px; font-weight: bold;}
+.fnb2 ul li:last-child {border-right: 0;}
+.fnb2 ul li a {color: #666;}
+.fnb2 ul li:first-child a {color: #bb0841;}
+
+#footer_container address {padding: 25px 0 10px; font-style: normal;}
+
+
+
+/* 기기별 미디어쿼리 */
+/* 태블릿(~1024px) */
+@media screen and (max-width:1024px) {
+
+
+    header {height: 70px;}
+    #header_container {width: 100%; height: 70px; padding: 0 20px; box-sizing: border-box;}
+    #header_container h1 {width: 90px; background-size: 100%; margin-top: 26px;}
+    .gnb {display: none;}
+    .h_right {padding-top: 20px;}
+    .h_right ul li {margin-left: 20px;}
+    .h_right .h_right_inq,
+    .h_right .h_right_lang {display: none;}
+    .h_right .h_right_m_menu {display: block; background: url(../img/mobile/ico_menu_m.png) no-repeat left center / 16px; padding-left: 16px;}
+    .h_right .h_right_m_menu span {display: block; text-indent: -9999px;}
+
+    #main_section01 {padding-top: 310px;}
+    #visual_container {width: 100%; padding: 0 100px; box-sizing: border-box;}
+
+
+    #search_container {width: 100%; padding-left: 100px; padding-right: 100px; box-sizing: border-box;}
+    .faq_item {width: 22%; padding: 25px; vertical-align: text-top;}
+
+    .section03_navbox {width: 45%; left: 3%;}
+    .section03_navbox button {width: 100%;}
+    .section03_navbox ul li {width: 100%; padding: 20px 40px;}
+
+    .section04_slide ul li {width: 25%;}
+    .section04_slide ul li:last-child {display: none;}
+    /* 임시로 4개만 보여주기 위해 설정함. 원래는 이렇게 하면 안됌!! 스크립트를 이용해서 디바이스의 너비가 줄었을 때 4개만 보여줄 수 있도록 설정해야 함. */
+
+    .section05_content {width: 100%;}
+    .section05_slide_img {width: 45%; margin-right: 5%;}
+    .section05_slide_img img {width: 100%;}
+    .section05_slide_content {width: 50%;}
+
+    footer {height: auto;}
+    #footer_container {width: 100%; height: auto; text-align: center; margin-bottom: 50px;}
+    .fnb1 {float: none;}
+    .sns {position: static; margin: auto;}
+    .family {text-align: center; margin-bottom: 50px;}
+    .fnb2 ul li {display: block; border: 0; margin-right: 0; padding-right: 0; margin-bottom: 10px;}
+
+
+
+}
+
+
+/* 모바일(~768px) */
+@media screen and (max-width:768px) {
+
+
+    header {height: 20vw;}
+    /* vw(Viewport Width)단위 : 뷰포트 화면의 너비를 100이라고 쳤을 때, 그 비율로 표시하는 방법
+    ex : 가로 360px 너비가 100vw 라고 한다면, 1vw는 3.6px */
+    #header_container h1 {background: url(../img/mobile/header_logo_m.png) no-repeat left center / 100%; width: 24vw; height: 6vw; margin-top: 7vw;}
+    .h_right {padding-top: 7vw;}
+    .h_right .h_right_shared {display: none;}
+    .h_right .h_right_search,
+    .h_right .h_right_m_menu {width: 5vw; background-size: 5vw; line-height: 5vw; }
+
+    #main_section01 {padding-top: 50vw;}
+    #main_section02,
+    #main_section03,
+    #main_section04,
+    #main_section05 {padding-top: 30vw;}
+    #visual_container {padding: 0 5vw;}
+    #visual_container h2 {font-size: 8vw;}
+    #visual_container h3 {font-size: 5vw;}
+
+    .title h2 {font-size: 8vw; line-height: 12vw; margin-bottom: 10vw; padding: 0 10vw; box-sizing: border-box;}
+    .title h3 {display: none;}
+
+    #search_container {padding: 0;}
+    .searchbox {width: 80vw; height: 15vw; margin-bottom: 5vw;}
+    .searchbox input {width: 85%; height: 100%; font-size: 5vw; padding: 0 5vw;}
+    .searchbox button {width: 15%; height: 100%;}
+
+    .hashtagbox .hashtag {font-size: 3.5vw;}
+    .hashtagbox .hashtag:nth-child(4),
+    .hashtagbox .hashtag:last-child {display: none;}
+    
+    .faq {padding-top: 8vw; margin-bottom: 6vw;}
+    .faq h2 {font-size: 5vw;}
+    .faq_item {width: 80vw; box-sizing: border-box; font-size: 5vw;}
+    .faq_item:nth-child(2),
+    .faq_item:nth-child(3) {display: none;}
+
+
+    .section03_content {height: 124vw;}
+    .section03_navbox {width: 100%; height: 30vw; position: static;}
+    .section03_navbox button {width: 10%; height: 30vw; box-sizing: border-box; float: left; background-color: rgba(153,13,62,.9);}
+    .section03_navbox button.nav_prev,
+    .section03_navbox button.nav_next {border: 0;}
+    .section03_navbox ul li {display: none;}
+    .section03_navbox ul li:nth-child(2) {display: block; width: 80%; height: 30vw; border-bottom: 0; float: left; padding: 4vw; box-sizing: border-box;}
+    .section03_navbox ul li .it_news_title,
+    .section03_navbox ul li .it_news_source {font-size: 4vw;}
+
+    .section03_slide {width: 100%; position: static; padding: 5vw 10vw; box-sizing: border-box; color: #fff; transform: none;}
+    .section03_slide h2 {font-size: 12vw; margin-bottom: 10vw;}
+    .section03_slide h3 {font-size: 5vw; margin-bottom: 10vw}
+    .section03_slide p {display: none;}
+    .section03_slide .more_btn {border: 0; background-color: #000; color: #fff; font-size: 18px;}
+    .section03_slide .more_btn::after {content: url(../img/ico_clampW_R.png);}
+
+    .section04_slide {margin-bottom: 10vw;}
+    .section04_slide ul li {width: 50%;}
+    .section04_slide ul li:nth-child(3),
+    .section04_slide ul li:nth-child(4) {display: none;}
+    .section04_slide ul li h4 {left: 5vw; bottom: 12vw; font-size: 5vw;}
+    .section04_slide ul li p {left: 5vw; bottom: 7vw; font-size: 4vw;}
+    .section04_nav {width: 50vw;}
+    .section04_nav .bar {width: 10vw;}
+
+    .section05_slide_img {width: 70vw; margin: 0 auto 10vw; float: none;}
+    .section05_slide_img img {width: 100%;}
+    .section05_slide_content {width: 70vw; float: none; margin: 0 auto 20vw;}
+    .section05_slide_content h4 {font-size: 5vw;}
+    .section05_slide_content p {display: none;}
+    .section05_slide_content h6 {font-size: 4vw;}
+
+    #main_section06 {padding-left: 10vw; padding-right: 10vw; box-sizing: border-box;}
+    #main_section06 h2 {font-size: 5vw;}
+    #main_section06 h3 {font-size: 4vw;}
+    #main_section06 a {font-size: 3.5vw;}
+
+    footer {padding-left: 5vw; padding-right: 5vw; box-sizing: border-box;}
+    #footer_container {font-size: 4vw;}
+
+
+
+}

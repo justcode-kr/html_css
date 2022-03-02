@@ -1,0 +1,306 @@
+@charset "utf-8";
+
+* {margin: 0; padding: 0; border: 0;}
+ul {list-style: none;}
+
+#header {
+    background-color:lightslategrey;
+    width: 700px;
+    height: 400px;
+    position: relative;
+}
+
+#menu_icon {
+    width: 11px;
+    height: 9px;
+    position: absolute;
+    top: 25px;
+    left: 100px;
+    
+}
+
+#mainlogo {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 12.5px;
+    left: 120px;
+}
+
+#home {
+    width: 54.5px;
+    height: 40.5px;
+    position: absolute;
+    top: 0;
+    left: 189px;
+    background-color: rgb(0,255,156);
+    transform: skewx(-10deg);
+}
+
+.menu li {
+    width: 294px;
+    height: 7px;
+    color: white;
+    display: inline;
+    position: relative;
+    top: 26.5px;
+    left: 203px;
+    font-size: 8px;
+    line-height: 20px;
+}
+
+.search {
+    width: 9.5px;
+    height: 9.5px;
+    position: absolute;
+    top: 24px;
+    left: 589px;
+}
+
+#header h1 {
+    width: 285px;
+    height: 62.5px;
+    color: rgb(0,255,156);
+    position: absolute;
+    top: 165.5px;
+    left: 207.5px;
+    font-size: 32px;
+    text-align: center;
+}
+
+#content {
+    width: 700px;
+    height: 400px;
+    position: relative;
+    
+}
+
+#box1 {
+    width: 198.5px;
+    height: 71.5px;
+    position: absolute;
+    top: 80px;
+    left: 92px;
+}
+
+#box2 {
+    width: 499px;
+    height: 97.5px;
+    position: absolute; 
+    top: 187.5px;
+    left: 98.5px;
+    overflow: hidden;
+}
+
+#box2 p {
+    font-size: 8px;
+    text-align: left;
+    line-height: 15px;
+    
+}
+
+#box3 {
+    width: 55px;
+    height: 7px;
+    background-color: bisque;
+    position: absolute;
+    top: 320.5px;
+    left: 98.5px;
+}
+
+#content2 {
+    width: 700px;
+    height: 400px;
+    background-color: coral;
+    text-align: center;
+}
+
+#box4 {
+    width: 227px;
+    height: 22.5px;
+    background-color: cadetblue;
+    position: relative;
+    top: 138.5px; 
+    left: 238px;
+}
+
+#box5 {
+    width: 253.5px;
+    height: 22.5px;
+    background-color: cadetblue;
+    position: relative;
+    top: 182.5px;
+    left: 223.5px;
+    overflow: hidden;
+}
+
+.a {
+    width: 104px;
+    height: 30px;
+    background-color: chartreuse;
+    float: left;
+    border-radius: 3px;
+    text-align: center;
+}
+
+#box6 {
+    position: relative;
+    top: 233.5px;
+    left: 241px;
+    margin-right: 5px;
+}
+
+#box7 {
+    position: relative;
+    top: 233.5px;
+    left: 241px;
+}
+
+#main {
+    width: 700px;
+    height: 800px;
+    background-color: darkgrey;
+    position: relative;
+}
+
+#box8 {
+    width: 198.5px;
+    height: 18px;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 47.5px;
+    left: 251.5px;
+}
+
+#box9 {
+    width: 500.5px;
+    height: 37.5px;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 84.5px;
+    left: 99px;
+    overflow: hidden;
+}
+
+#box10 img {
+    width: 500px;
+    height: 270px;
+    position: absolute;
+    top: 155.5px;
+    left: 100px;
+}
+
+#box11 img {
+    width: 200px;
+    height: 300px;    
+    position: absolute;
+    top: 455px;
+    left: 100px;
+}
+
+#box12 {
+    width: 268px;
+    height: 262.5px;
+    background-color: lemonchiffon;
+    overflow: hidden;
+    position: absolute;
+    top: 455px;
+    left: 329.5px;
+}
+
+#content3 {
+    width: 700px;
+    height: 70px;
+    background-color: aqua;
+    position: relative;
+}
+
+#box13 {
+    width: 281px;
+    height: 14.5px;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 28px;
+    left: 101px;
+    font-size: 100%;
+}
+
+#box14 {
+    width: 104px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 20px;
+    left: 496px;
+    text-align: center;
+}
+
+#footer {
+    width: 700px;
+    height: 330px;
+    background-color: rgb(51,51,51);
+    position: relative;
+}
+
+#box15 {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 45px;
+    left: 332px;
+}
+
+#box16 {
+    width: 62.5px;
+    height: 87px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 107px;
+    left: 189px;
+    text-align: center;
+}
+
+#box17 {
+    width: 62.5px;
+    height: 87px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 107px;
+    left: 318.5px;
+    text-align: center;
+}
+
+#box18 {
+    width: 62.5px;
+    height: 87px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 107px;
+    left: 451px;
+    text-align: center;
+}
+
+#footer2 {
+    width: 700px;
+    height: 80px;
+    background-color: rgb(44,44,44);
+    position: relative;
+}
+
+#box19 {
+    width: 196.5px;
+    height: 7.5px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 37.5px;
+    left: 100.5px;
+}
+
+#box20 {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 23.5px;
+    left: 569.5px;
+}
